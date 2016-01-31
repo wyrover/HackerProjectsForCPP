@@ -110,15 +110,22 @@ bool Recovery(char * bmpFileName, char * secretFileName)
 	return true;
 }
 
+
+void help(char* argv[])
+{
+	printf("Usage : %s Encrypt [secret_file] [BMP_file] \n", argv[0]);
+	printf("Usage : %s Decrypt [BMP_file] [secret_file] \n", argv[0]);
+}
+
+
 int main(int argc, char* argv[])
 {
-	if (argc < 3)
+	if (argc < 3 || strcmp(argv[1], "--help") == 0)
 	{
-		printf("Usage : %s Encrypt [secret_file] [BMP_file] \n", argv[0]);
-		printf("Usage : %s Decrypt [BMP_file] [secret_file] \n", argv[0]);
+		help(argv);
 		return 0;
 	}
-	
+
 	if (strcmp(argv[1], "Encrypt") == 0)
 		Hide(argv[3], argv[2]);
 	else if (strcmp(argv[1], "Decrypt") == 0)
