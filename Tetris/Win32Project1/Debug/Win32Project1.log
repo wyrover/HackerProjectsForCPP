@@ -1,0 +1,20 @@
+﻿Build started 2/20/2016 9:28:49 PM.
+     1>Project "C:\Users\MathxH\Desktop\Win32Project1\Win32Project1\Win32Project1.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Win32Project1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\MathxH\software\VS2013\VC\bin\CL.exe /c /ID:\MathxH\software\VisualLeakDetector\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Tetris.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\MathxH\software\VS2013\VC\bin\CL.exe /c /ID:\MathxH\software\VisualLeakDetector\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Tetris.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Win32Project1.cpp
+         Win32Project1.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\Win32Project1.res" Win32Project1.rc 
+       Link:
+         D:\MathxH\software\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\MathxH\Desktop\Win32Project1\Debug\Tetris.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\MathxH\software\VisualLeakDetector\lib\Win32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\MathxH\Desktop\Win32Project1\Debug\Tetris.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\MathxH\Desktop\Win32Project1\Debug\Tetris.lib" /MACHINE:X86 Debug\Win32Project1.res
+         Debug\stdafx.obj
+         Debug\Win32Project1.obj
+         Win32Project1.vcxproj -> C:\Users\MathxH\Desktop\Win32Project1\Debug\Tetris.exe
+     1>Done Building Project "C:\Users\MathxH\Desktop\Win32Project1\Win32Project1\Win32Project1.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.47
